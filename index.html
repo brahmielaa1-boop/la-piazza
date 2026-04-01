@@ -1,0 +1,199 @@
+!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>La Piazza – Ristorante Italiano</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:wght@300;400;500&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="styl.css"/>
+  <link rel="stylesheet" href="script.js">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav id="navbar">
+  <div class="logo">La <span>Piazza</span></div>
+  <ul>
+    <li><a href="#story">Notre Histoire</a></li>
+    <li><a href="#menu">Menu</a></li>
+    <li><a href="#specialties">Spécialités</a></li>
+    <li><a href="#reservation" class="nav-btn">Réserver</a></li>
+  </ul>
+  <div class="hamburger" id="hamburger">&#9776;</div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-circle"></div>
+  <div class="hero-circle"></div>
+  <div class="hero-circle"></div>
+  <div class="hero-content">
+    <p class="hero-tag">Ristorante Italiano · Depuis 2010</p>
+    <h1>La <em>Piazza</em></h1>
+    <div class="hero-divider"></div>
+    <p class="hero-sub">L'authenticité italienne au cœur de Tunis</p>
+    <div class="hero-btns">
+      <a href="#menu" class="btn-primary">Voir le Menu</a>
+      <a href="#reservation" class="btn-outline">Réserver une Table</a>
+    </div>
+  </div>
+</section>
+
+<!-- STATS STRIP -->
+<div class="about-strip">
+  <div class="strip-item">
+    <div class="num" data-target="15">0</div>
+    <p>Années d'expérience</p>
+  </div>
+  <div class="strip-item">
+    <div class="num" data-target="40">0</div>
+    <p>Plats au menu</p>
+  </div>
+  <div class="strip-item">
+    <div class="num" data-target="5000">0</div>
+    <p>Clients satisfaits</p>
+  </div>
+  <div class="strip-item">
+    <div class="num" data-target="100">0</div>
+    <p>% Ingrédients frais</p>
+  </div>
+</div>
+
+<!-- STORY -->
+<section id="story">
+  <div class="story">
+    <div class="story-text">
+      <p class="section-label">Notre Histoire</p>
+      <h2 class="section-title">Une passion <em>italienne</em> transmise de génération en génération</h2>
+      <div class="gold-line"></div>
+      <p>Fondé en 2010, La Piazza est né d'une passion profonde pour la cuisine italienne authentique. Nous préparons chaque plat avec des recettes traditionnelles transmises de génération en génération.</p>
+      <p>Nos pâtes sont faites maison chaque matin, nos pizzas cuites au feu de bois, et nos ingrédients soigneusement sélectionnés pour vous offrir l'Italie dans chaque bouchée.</p>
+      <a href="#menu" class="btn-primary" style="display:inline-block; margin-top:1rem;">Découvrir le Menu</a>
+    </div>
+    <div class="story-img">
+      <div class="story-img-main">🍕</div>
+      <div class="story-badge">
+        <span class="year">15</span>
+        <small>ans de passion</small>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MENU PREVIEW -->
+<section class="menu-section" id="menu">
+  <div class="menu-header">
+    <p class="section-label">Notre Menu</p>
+    <h2 class="section-title">Nos <em>Spécialités</em> du Chef</h2>
+    <div class="gold-line"></div>
+  </div>
+  <div class="menu-grid">
+    <div class="menu-card">
+      <div class="menu-card-emoji">🍕</div>
+      <h3>Pizza Margherita</h3>
+      <p>Tomate fraîche, mozzarella fior di latte, basilic frais, huile d'olive extra vierge.</p>
+      <span class="price">18 TND</span>
+    </div>
+    <div class="menu-card">
+      <div class="menu-card-emoji">🍝</div>
+      <h3>Spaghetti Carbonara</h3>
+      <p>Pâtes maison, guanciale, œuf frais, pecorino romano, poivre noir.</p>
+      <span class="price">22 TND</span>
+    </div>
+    <div class="menu-card">
+      <div class="menu-card-emoji">🥩</div>
+      <h3>Osso Buco</h3>
+      <p>Jarret de veau braisé, gremolata, risotto alla milanese.</p>
+      <span class="price">38 TND</span>
+    </div>
+    <div class="menu-card">
+      <div class="menu-card-emoji">🍋</div>
+      <h3>Risotto al Limone</h3>
+      <p>Riz arborio, citron de Sicile, parmesan 24 mois, beurre doux.</p>
+      <span class="price">26 TND</span>
+    </div>
+    <div class="menu-card">
+      <div class="menu-card-emoji">🦐</div>
+      <h3>Linguine ai Frutti di Mare</h3>
+      <p>Linguine maison, crevettes, palourdes, tomates cerises, vin blanc.</p>
+      <span class="price">34 TND</span>
+    </div>
+    <div class="menu-card">
+      <div class="menu-card-emoji">🍮</div>
+      <h3>Tiramisù Classique</h3>
+      <p>Mascarpone, biscuits savoiardi, espresso, cacao amer.</p>
+      <span class="price">12 TND</span>
+    </div>
+  </div>
+  <div class="menu-center">
+    <a href="menu.php" class="btn-outline gold-btn">Voir le Menu Complet</a>
+  </div>
+</section>
+
+<!-- SPECIALTIES -->
+<section id="specialties">
+  <div class="specialties">
+    <div class="spec-header">
+      <p class="section-label">Pourquoi nous choisir</p>
+      <h2 class="section-title">L'<em>Excellence</em> à chaque table</h2>
+      <div class="gold-line center-line"></div>
+    </div>
+    <div class="spec-grid">
+      <div class="spec-item">
+        <div class="icon">🔥</div>
+        <h3>Four à Bois</h3>
+        <p>Nos pizzas sont cuites dans un four à bois traditionnel à 450°C pour une pâte croustillante et savoureuse.</p>
+      </div>
+      <div class="spec-item">
+        <div class="icon">🌿</div>
+        <h3>Produits Frais</h3>
+        <p>Chaque matin, nous sélectionnons les meilleurs ingrédients frais et locaux pour préparer nos plats.</p>
+      </div>
+      <div class="spec-item">
+        <div class="icon">👨‍🍳</div>
+        <h3>Chef Expérimenté</h3>
+        <p>Notre chef a été formé en Italie et apporte 20 ans d'expérience dans la cuisine traditionnelle italienne.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RESERVATION -->
+<section class="reservation" id="reservation">
+  <p class="section-label">Réservation</p>
+  <h2 class="section-title">Réservez <em>Votre Table</em></h2>
+  <div class="gold-line center-line"></div>
+  <p class="res-desc">Rejoignez-nous pour une expérience culinaire inoubliable.</p>
+  <div class="res-form">
+    <input type="text" id="res-name" placeholder="Votre nom" />
+    <input type="date" id="res-date" />
+    <select id="res-persons">
+      <option value="">Nombre de personnes</option>
+      <option>1 personne</option>
+      <option>2 personnes</option>
+      <option>3-4 personnes</option>
+      <option>5+ personnes</option>
+    </select>
+    <button class="btn-primary" id="res-btn">Réserver</button>
+  </div>
+  <p id="res-message" class="res-message"></p>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <span class="logo footer-logo">La <span>Piazza</span></span>
+  <ul class="footer-links">
+    <li><a href="#story">Histoire</a></li>
+    <li><a href="#menu">Menu</a></li>
+    <li><a href="#specialties">Spécialités</a></li>
+    <li><a href="#reservation">Réservation</a></li>
+  </ul>
+  <p class="footer-copy">© 2026 La Piazza · Tous droits réservés</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+…
+
+[Message tronqué]  Afficher l'intégralité du message
